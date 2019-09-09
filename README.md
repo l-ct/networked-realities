@@ -1,1 +1,1 @@
-#[Networked Realities](netreal.frb.io)
+[Networked Realities](netreal.frb.io)

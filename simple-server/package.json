@@ -1,0 +1,11 @@
+{
+  "name": "simple-server",
+  "version": "1.0.0",
+  "description": "Simple deployment to Heroku",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "author": "l-ct",
+  "license": "ISC"
+}

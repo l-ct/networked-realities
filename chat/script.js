@@ -49,7 +49,7 @@ socket.on('insert', data => {
 // and filter the returned data using if statements
 // passing an empty object as the second parameter
 // retrieves all the items in the database
-socket.emit('find', {app:'chat'}, data => {
+socket.emit('find', {app: 'chat'}, data => {
 	console.log(data);
 	// data will be an array of saved objects
 	// using for loop to cycle through each one in order

@@ -1,6 +1,6 @@
-[Networked Realities](https://www.networkedrealiti.es/)
+# [Networked Realities](https://www.networkedrealiti.es/)
 
-## Chat
+### Chat
 
 A simple chat app written entirely on the client using our [API](https://api.networkedrealiti.es/). Notice how there are three ways we're dealing with websockets:
 
@@ -8,7 +8,7 @@ A simple chat app written entirely on the client using our [API](https://api.net
 2. User submits form and broadcasts `input.value` to other users using 'insert' channel which also stores in DB. Incidentally, user's own interface needs updating.
 3. User receives data from the other users.
 
-## Draw
+### Draw
 
 This is a visual variation on chat. Users send normalized x and y coordinates from 0 to 1 to each other. Just as above, these are stored using the `'insert'` websocket channel on our server. Once more, there are three main parts:
 

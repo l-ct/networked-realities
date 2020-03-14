@@ -1,14 +1,21 @@
 html {
-    font-size: 30px;
     font-family: verdana;
+    font-size: 30px;
+}
+form, main {
+    margin: 1rem;
 }
 input {
-    font-size: inherit;
     font-family: inherit;
+    font-size: inherit;
+    background-color: lightpink;
     padding: 1rem;
     border: none;
-    background-color: lightpink;
+}
+input[type="text"] {
+    width: 50%;
 }
 input[type="submit"] {
     color: white;
 }
+
